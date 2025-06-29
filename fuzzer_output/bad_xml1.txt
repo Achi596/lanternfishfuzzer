@@ -1,0 +1,22 @@
+ERROR: ld.so: object '/usr/lib/libasan.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+bash: line 1:  7160 Segmentation fault      (core dumped) LD_PRELOAD=/usr/lib/libasan.so binaries/xml1 < input.txt
+
+
+Bad input that caused crash:
+<html>
+    <head>
+        <link href="http://somewebsite.com" />
+    </head>
+    <body>
+        <h1>I'm not a web developer.</h1>
+    </body>
+
+    <div id="#lol">
+        <a href="http://google.com">Here is some link...</a>
+    </div>
+
+
+    <tail>
+        <a href="http://bing.com%10x%n">Footer link</a>
+    </tail>
+</html>

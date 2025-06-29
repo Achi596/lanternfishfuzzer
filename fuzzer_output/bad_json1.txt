@@ -1,0 +1,6 @@
+ERROR: ld.so: object '/usr/lib/libasan.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+bash: line 1: 18709 Segmentation fault      (core dumped) LD_PRELOAD=/usr/lib/libasan.so binaries/json1 < input.txt
+
+
+Bad input that caused crash:
+{"len": -1000000, "input": "AAAABBBBCCCC", "more_data": ["a", "bb"]}

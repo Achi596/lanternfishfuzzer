@@ -1,0 +1,14 @@
+ERROR: ld.so: object '/usr/lib/libasan.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Password pls> 
+Welcome to the.. uhh.. Legitimate image service. Select a photo to view...
+[0] adam hawaii trip
+[1] adam france trip
+[2] hpy las vegas trip
+[3] (null)
+
+> bash: line 1:   349 Segmentation fault      (core dumped) LD_PRELOAD=/usr/lib/libasan.so binaries/plaintext2 < input.txt
+
+
+Bad input that caused crash:
+trivial
+-9999
