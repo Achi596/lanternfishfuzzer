@@ -1,5 +1,7 @@
 # Lanternfishfuzzer
 
+![image](https://cdn.openspaces.penguinserver.net/i/19e9cf78-f6c5-4f86-9497-96663706ff6a.jpg)
+
 Lanternfishfuzzer is a blackbox fuzzing tool that given a sample input, is capable of testing and identifying vulnerabilities in binaries that accept plaintext, CSV, JSON, and XML inputs.
 
 ## Authors
